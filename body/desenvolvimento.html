@@ -12,20 +12,28 @@
     <title>Documentação - Tecnologias</title>
     <script src="https://kit.fontawesome.com/753c8a21d4.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header class="cabecalho">
         <nav class="cabecalho__menu">
             <a href="/index.html" class="cabecalho__menu__link">Home</a>
-            <div class="dropdown cabecalho__menu__link ">
-                <button class="dropbtn cabecalho__menu__link">Contatos</button>
-                <div class="dropdown-content">
-                <a href="#" class="cabecalho__menu__link cabecalho__contatos">Desenvolvimento</a>
-                <a href="#" class="cabecalho__menu__link cabecalho__contatos">Implantação</a>
-                <a href="#" class="cabecalho__menu__link cabecalho__contatos">Financeiro</a>
-                </div>
-              </div>
             <a href="/header/videos.html" class="cabecalho__menu__link">Vídeos</a>
             <a href="/header/valores.html" class="cabecalho__menu__link">Sismaster</a>
+            <a href="/header/valores.html" class="cabecalho__menu__link">Sugestões</a>            
+            <div class="dropdown">
+                <a href="#" class="dropbtn cabecalho__menu__link">Contatos</a>
+                <div class="dropdown-content cabecalho__menu__link">
+                    <a href="#">Desenvolvimento</a>
+                    <a href="#">Diretoria</a>
+                    <a href="#">Financeiro</a>
+                    <a href="#">Gerencia</a>
+                    <a href="#">Implantação</a>
+                    <a href="#">Infraestrutura</a>
+                    <a href="#">Qualidade</a>
+                    <a href="#">Suporte</a>
+                    <a href="#">Vendas</a>
+                </div>
+            </div>
         </nav>
     </header>
     <main class="apresentacao">
@@ -37,40 +45,42 @@
                 interna e externa</p>
             <section>
                 <h2 class="apresentacao__links__subtitulo__tecnologias">Tecnologias:</h2>
-                <p class="tecnologias__conteudos">
+                
+                <p class="tecnologias__conteudos" title="Slack">
                     <a class="apresentacao__links__navegacao__tecnologia apresentacao__links__link " href="">
                         <i class="fa-brands fa-slack fa-2xl cor__icone"></i>
                     </a>
                 </p>
 
-                <p class="tecnologias__conteudos">
+                <p class="tecnologias__conteudos" title="GitHub">
                     <a class="apresentacao__links__navegacao__tecnologia apresentacao__links__link " href="">
                         <i class="fa-brands fa-github fa-2xl cor__icone"></i>
                     </a>
                 </p>
-                <p class="tecnologias__conteudos">
+                <p class="tecnologias__conteudos" title="Bitbucket">
                     <a class="apresentacao__links__navegacao__tecnologia apresentacao__links__link " href="">
                         <i class="fa-brands fa-bitbucket fa-2xl cor__icone"></i>
                     </a>
                 </p>
-                <p class="tecnologias__conteudos">
+                <p class="tecnologias__conteudos" title="Jira">
                     <a class="apresentacao__links__navegacao__tecnologia apresentacao__links__link " href="">
                         <i class="fa-brands fa-jira fa-2xl cor__icone"></i>
                     </a>
                 </p>
-                <p class="tecnologias__conteudos">
+                <p class="tecnologias__conteudos" title="Trello">
                     <a class="apresentacao__links__navegacao__tecnologia apresentacao__links__link " href="">
                         <i class="fa-brands fa-trello fa-2xl cor__icone"></i>
                     </a>
                 </p>
-                <p class="tecnologias__conteudos">
+                <p class="tecnologias__conteudos" title="Sourcestree">
                     <a class="apresentacao__links__navegacao__tecnologia apresentacao__links__link " href="">
                         <i class="fa-brands fa-sourcetree fa-2xl cor__icone"></i>
                     </a>
                 </p>
-                
+
             </section>
         </section>
+        
         <section class="apresentacao__conteudo">
             <div class="apresentacao__links">
                 <h2 class="apresentacao__links__subtitulo">Setores Impactados:</h2>
@@ -78,37 +88,45 @@
                     <i class="fa-solid fa-code cor__icone__setores"></i>
                     Desenvolvimento
                 </a>
+                <a class="apresentacao__links__navegacao apresentacao__links__link" href="/body/desenvolvimento.html">
+                    <i class="fa-solid fa-user-tie cor__icone__setores"></i>
+                    Diretoria
+                </a>
+                <a class="apresentacao__links__navegacao apresentacao__links__link" href="/body/financeiro.html">
+                    <i class="fa-solid fa-sack-dollar cor__icone__setores"></i>
+                    Financeiro
+                </a>
+                <a class="apresentacao__links__navegacao apresentacao__links__link" href="/body/gerencia.html">
+                    <i class="fa-solid fa-list-check cor__icone__setores"></i>
+                    Gerencia
+                </a>
                 <a class="apresentacao__links__navegacao apresentacao__links__link" href="/body/implantacao.html">
                     <i class="fa-solid fa-people-group cor__icone__setores"></i>
                     Implantação
                 </a>
                 <a class="apresentacao__links__navegacao apresentacao__links__link" href="/body/vendas.html">
                     <i class="fa-solid fa-comments-dollar cor__icone__setores"></i>
-                    Vendas
-                </a>
-                <a class="apresentacao__links__navegacao apresentacao__links__link" href="/body/suporte.html">
-                    <i class="fa-solid fa-comments cor__icone__setores"></i>
-                    Suporte
-                </a>
-                <a class="apresentacao__links__navegacao apresentacao__links__link" href="/body/gerencia.html">
-                    <i class="fa-solid fa-list-check cor__icone__setores"></i>
-                    Gerencia
-                </a>
-                <a class="apresentacao__links__navegacao apresentacao__links__link" href="/body/financeiro.html">
-                    <i class="fa-solid fa-sack-dollar cor__icone__setores"></i>
-                    Financeiro
+                    Infraestrutura
                 </a>
                 <a class="apresentacao__links__navegacao apresentacao__links__link" href="/body/qualidade.html">
                     <i class="fa-solid fa-window-restore cor__icone__setores"></i>
                     Qualidade
                 </a>
+                <a class="apresentacao__links__navegacao apresentacao__links__link" href="/body/suporte.html">
+                    <i class="fa-solid fa-comments cor__icone__setores"></i>
+                    Suporte
+                </a>
+                <a class="apresentacao__links__navegacao apresentacao__links__link" href="/body/vendas.html">
+                    <i class="fa-solid fa-comments-dollar cor__icone__setores"></i>
+                    Vendas
+                </a>
             </div>
         </section>
     </main>
-
     <section class="centralizando">
 
-        <table>
+        <!-- Slack -->
+        <table class="rodape__slack" hidden>
             <tr class="cabecalho__menu__link__tabela">
                 <th class="cabecalho__menu__link__tabela">Tecnologia</th>
                 <th class="cabecalho__menu__link__tabela">Downloads</th>
@@ -166,6 +184,307 @@
                 </td>
             </tr>
         </table>
+
+        <!-- Github -->
+        <table class="rodape__github" hidden>
+            <tr class="cabecalho__menu__link__tabela">
+                <th class="cabecalho__menu__link__tabela">Tecnologia</th>
+                <th class="cabecalho__menu__link__tabela">Downloads</th>
+                <th class="cabecalho__menu__link__tabela">Documentações</th>
+                <th class="cabecalho__menu__link__tabela">Integrações</th>
+                <th class="cabecalho__menu__link__tabela">Valores</th>
+                <th class="cabecalho__menu__link__tabela">Videos</th>
+                <th class="cabecalho__menu__link__tabela">Configurações</th>
+                <th class="cabecalho__menu__link__tabela">Requisitos</th>
+                <th class="cabecalho__menu__link__tabela">Fluxogramas</th>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://slack.com/intl/pt-br/help/articles/115004071768-O-que-%C3%A9-o-Slack-"
+                        alt="Icone do Github Software" target="_blank" class="centralizando">
+                        <i class="fa-brands fa-github fa-2xl cor__icone" title="Github Software"></i>
+                    </a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/downloads/windows" alt="Icone para o site e downloads"
+                        target="_blank"><i class="fa-solid fa-file-arrow-down fa-2xl cor__icone"
+                            title="Download"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://api.slack.com/docs" alt="Icone para o site e downloads" target="_blank"><i
+                            class="fa-solid fa-book fa-2xl cor__icone" title="Documentação"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/integrations" alt="Icone para o site e downloads"
+                        target="_blank"><i class="fa-solid fa-link fa-2xl cor__icone" title="Integrações"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://app.slack.com/plans/T053426LBU7?geocode=pt-br" alt="Icone para o site e downloads"
+                        target="_blank"><i class="fa-solid fa-dollar-sign fa-2xl cor__icone" title="Valores"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://www.youtube.com/watch?v=rz8W-1ikzRQ&ab_channel=Pluga"
+                        alt="Icone para o site e downloads" target="_blank"><i
+                            class="fa-solid fa-video fa-2xl cor__icone" title="Videos"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/help/articles/218080037-Primeiros-passos-para-novos-usu%C3%A1rios-do-Slack"
+                        alt="Icone para o site e downloads" target="_blank"><i
+                            class="fa-solid fa-gears fa-2xl cor__icone" title="Configurações"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/help/articles/115002037526-Requisitos-de-sistema-para-usar-o-Slack"
+                        alt="Icone para o site e downloads" target="_blank"><i
+                            class="fa-solid fa-list fa-2xl cor__icone" title="Requisitos"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/solutions" alt="Icone para o site e downloads"
+                        target="_blank"><i class="fa-solid fa-diagram-project fa-2xl cor__icone"
+                            title="Fluxograma"></i></a>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Bitbucket -->
+        <table class="rodape__bitbucket" hidden>
+            <tr class="cabecalho__menu__link__tabela">
+                <th class="cabecalho__menu__link__tabela">Tecnologia</th>
+                <th class="cabecalho__menu__link__tabela">Downloads</th>
+                <th class="cabecalho__menu__link__tabela">Documentações</th>
+                <th class="cabecalho__menu__link__tabela">Integrações</th>
+                <th class="cabecalho__menu__link__tabela">Valores</th>
+                <th class="cabecalho__menu__link__tabela">Videos</th>
+                <th class="cabecalho__menu__link__tabela">Configurações</th>
+                <th class="cabecalho__menu__link__tabela">Requisitos</th>
+                <th class="cabecalho__menu__link__tabela">Fluxogramas</th>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://slack.com/intl/pt-br/help/articles/115004071768-O-que-%C3%A9-o-Slack-"
+                        alt="Icone do Bitbucket Software" target="_blank" class="centralizando">
+                        <i class="fa-brands fa-bitbucket fa-2xl cor__icone" title="Bitbucket Software"></i>
+                    </a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/downloads/windows" alt="Icone para o site e downloads"
+                        target="_blank"><i class="fa-solid fa-file-arrow-down fa-2xl cor__icone"
+                            title="Download"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://api.slack.com/docs" alt="Icone para o site e downloads" target="_blank"><i
+                            class="fa-solid fa-book fa-2xl cor__icone" title="Documentação"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/integrations" alt="Icone para o site e downloads"
+                        target="_blank"><i class="fa-solid fa-link fa-2xl cor__icone" title="Integrações"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://app.slack.com/plans/T053426LBU7?geocode=pt-br" alt="Icone para o site e downloads"
+                        target="_blank"><i class="fa-solid fa-dollar-sign fa-2xl cor__icone" title="Valores"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://www.youtube.com/watch?v=rz8W-1ikzRQ&ab_channel=Pluga"
+                        alt="Icone para o site e downloads" target="_blank"><i
+                            class="fa-solid fa-video fa-2xl cor__icone" title="Videos"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/help/articles/218080037-Primeiros-passos-para-novos-usu%C3%A1rios-do-Slack"
+                        alt="Icone para o site e downloads" target="_blank"><i
+                            class="fa-solid fa-gears fa-2xl cor__icone" title="Configurações"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/help/articles/115002037526-Requisitos-de-sistema-para-usar-o-Slack"
+                        alt="Icone para o site e downloads" target="_blank"><i
+                            class="fa-solid fa-list fa-2xl cor__icone" title="Requisitos"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/solutions" alt="Icone para o site e downloads"
+                        target="_blank"><i class="fa-solid fa-diagram-project fa-2xl cor__icone"
+                            title="Fluxograma"></i></a>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Jira -->
+        <table class="rodape__jira" hidden>
+            <tr class="cabecalho__menu__link__tabela">
+                <th class="cabecalho__menu__link__tabela">Tecnologia</th>
+                <th class="cabecalho__menu__link__tabela">Downloads</th>
+                <th class="cabecalho__menu__link__tabela">Documentações</th>
+                <th class="cabecalho__menu__link__tabela">Integrações</th>
+                <th class="cabecalho__menu__link__tabela">Valores</th>
+                <th class="cabecalho__menu__link__tabela">Videos</th>
+                <th class="cabecalho__menu__link__tabela">Configurações</th>
+                <th class="cabecalho__menu__link__tabela">Requisitos</th>
+                <th class="cabecalho__menu__link__tabela">Fluxogramas</th>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://slack.com/intl/pt-br/help/articles/115004071768-O-que-%C3%A9-o-Slack-"
+                        alt="Icone do jira Software" target="_blank" class="centralizando">
+                        <i class="fa-brands fa-jira fa-2xl cor__icone" title="Jira Software"></i>
+                    </a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/downloads/windows" alt="Icone para o site e downloads"
+                        target="_blank"><i class="fa-solid fa-file-arrow-down fa-2xl cor__icone"
+                            title="Download"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://api.slack.com/docs" alt="Icone para o site e downloads" target="_blank"><i
+                            class="fa-solid fa-book fa-2xl cor__icone" title="Documentação"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/integrations" alt="Icone para o site e downloads"
+                        target="_blank"><i class="fa-solid fa-link fa-2xl cor__icone" title="Integrações"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://app.slack.com/plans/T053426LBU7?geocode=pt-br" alt="Icone para o site e downloads"
+                        target="_blank"><i class="fa-solid fa-dollar-sign fa-2xl cor__icone" title="Valores"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://www.youtube.com/watch?v=rz8W-1ikzRQ&ab_channel=Pluga"
+                        alt="Icone para o site e downloads" target="_blank"><i
+                            class="fa-solid fa-video fa-2xl cor__icone" title="Videos"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/help/articles/218080037-Primeiros-passos-para-novos-usu%C3%A1rios-do-Slack"
+                        alt="Icone para o site e downloads" target="_blank"><i
+                            class="fa-solid fa-gears fa-2xl cor__icone" title="Configurações"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/help/articles/115002037526-Requisitos-de-sistema-para-usar-o-Slack"
+                        alt="Icone para o site e downloads" target="_blank"><i
+                            class="fa-solid fa-list fa-2xl cor__icone" title="Requisitos"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/solutions" alt="Icone para o site e downloads"
+                        target="_blank"><i class="fa-solid fa-diagram-project fa-2xl cor__icone"
+                            title="Fluxograma"></i></a>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Trello -->
+        <table class="rodape__trello" hidden>
+            <tr class="cabecalho__menu__link__tabela">
+                <th class="cabecalho__menu__link__tabela">Tecnologia</th>
+                <th class="cabecalho__menu__link__tabela">Downloads</th>
+                <th class="cabecalho__menu__link__tabela">Documentações</th>
+                <th class="cabecalho__menu__link__tabela">Integrações</th>
+                <th class="cabecalho__menu__link__tabela">Valores</th>
+                <th class="cabecalho__menu__link__tabela">Videos</th>
+                <th class="cabecalho__menu__link__tabela">Configurações</th>
+                <th class="cabecalho__menu__link__tabela">Requisitos</th>
+                <th class="cabecalho__menu__link__tabela">Fluxogramas</th>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://slack.com/intl/pt-br/help/articles/115004071768-O-que-%C3%A9-o-Slack-"
+                        alt="Icone do trello Software" target="_blank" class="centralizando">
+                        <i class="fa-brands fa-trello fa-2xl cor__icone" title="Trello Software"></i>
+                    </a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/downloads/windows" alt="Icone para o site e downloads"
+                        target="_blank"><i class="fa-solid fa-file-arrow-down fa-2xl cor__icone"
+                            title="Download"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://api.slack.com/docs" alt="Icone para o site e downloads" target="_blank"><i
+                            class="fa-solid fa-book fa-2xl cor__icone" title="Documentação"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/integrations" alt="Icone para o site e downloads"
+                        target="_blank"><i class="fa-solid fa-link fa-2xl cor__icone" title="Integrações"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://app.slack.com/plans/T053426LBU7?geocode=pt-br" alt="Icone para o site e downloads"
+                        target="_blank"><i class="fa-solid fa-dollar-sign fa-2xl cor__icone" title="Valores"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://www.youtube.com/watch?v=rz8W-1ikzRQ&ab_channel=Pluga"
+                        alt="Icone para o site e downloads" target="_blank"><i
+                            class="fa-solid fa-video fa-2xl cor__icone" title="Videos"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/help/articles/218080037-Primeiros-passos-para-novos-usu%C3%A1rios-do-Slack"
+                        alt="Icone para o site e downloads" target="_blank"><i
+                            class="fa-solid fa-gears fa-2xl cor__icone" title="Configurações"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/help/articles/115002037526-Requisitos-de-sistema-para-usar-o-Slack"
+                        alt="Icone para o site e downloads" target="_blank"><i
+                            class="fa-solid fa-list fa-2xl cor__icone" title="Requisitos"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/solutions" alt="Icone para o site e downloads"
+                        target="_blank"><i class="fa-solid fa-diagram-project fa-2xl cor__icone"
+                            title="Fluxograma"></i></a>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Sourcestree -->
+        <table class="rodape__sourcestree">
+            <tr class="cabecalho__menu__link__tabela">
+                <th class="cabecalho__menu__link__tabela">Tecnologia</th>
+                <th class="cabecalho__menu__link__tabela">Downloads</th>
+                <th class="cabecalho__menu__link__tabela">Documentações</th>
+                <th class="cabecalho__menu__link__tabela">Integrações</th>
+                <th class="cabecalho__menu__link__tabela">Valores</th>
+                <th class="cabecalho__menu__link__tabela">Videos</th>
+                <th class="cabecalho__menu__link__tabela">Configurações</th>
+                <th class="cabecalho__menu__link__tabela">Requisitos</th>
+                <th class="cabecalho__menu__link__tabela">Fluxogramas</th>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://slack.com/intl/pt-br/help/articles/115004071768-O-que-%C3%A9-o-Slack-"
+                        alt="Icone do sourcetree Software" target="_blank" class="centralizando">
+                        <i class="fa-brands fa-sourcetree fa-2xl cor__icone" title="Sourcetree Software"></i>
+                    </a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/downloads/windows" alt="Icone para o site e downloads"
+                        target="_blank"><i class="fa-solid fa-file-arrow-down fa-2xl cor__icone"
+                            title="Download"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://api.slack.com/docs" alt="Icone para o site e downloads" target="_blank"><i
+                            class="fa-solid fa-book fa-2xl cor__icone" title="Documentação"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/integrations" alt="Icone para o site e downloads"
+                        target="_blank"><i class="fa-solid fa-link fa-2xl cor__icone" title="Integrações"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://app.slack.com/plans/T053426LBU7?geocode=pt-br" alt="Icone para o site e downloads"
+                        target="_blank"><i class="fa-solid fa-dollar-sign fa-2xl cor__icone" title="Valores"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://www.youtube.com/watch?v=rz8W-1ikzRQ&ab_channel=Pluga"
+                        alt="Icone para o site e downloads" target="_blank"><i
+                            class="fa-solid fa-video fa-2xl cor__icone" title="Videos"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/help/articles/218080037-Primeiros-passos-para-novos-usu%C3%A1rios-do-Slack"
+                        alt="Icone para o site e downloads" target="_blank"><i
+                            class="fa-solid fa-gears fa-2xl cor__icone" title="Configurações"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/help/articles/115002037526-Requisitos-de-sistema-para-usar-o-Slack"
+                        alt="Icone para o site e downloads" target="_blank"><i
+                            class="fa-solid fa-list fa-2xl cor__icone" title="Requisitos"></i></a>
+                </td>
+                <td class="apresentacao__conteudo__textos">
+                    <a href="https://slack.com/intl/pt-br/solutions" alt="Icone para o site e downloads"
+                        target="_blank"><i class="fa-solid fa-diagram-project fa-2xl cor__icone"
+                            title="Fluxograma"></i></a>
+                </td>
+            </tr>
+        </table>
+
     </section>
     <footer class="rodape">
         <p>Desenvolvido por Rafael.</p>
